@@ -1,0 +1,71 @@
+* {
+  /* box-sizing: border-box; */
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background: linear-gradient(to top right, purple, blue);
+  background-repeat: no-repeat;
+}
+
+#app {
+  width: 600px;
+  height: auto;
+  background-color: lightgrey;
+  padding: 10px;
+  margin: 80px auto;
+  border-radius: 20px;
+}
+h1 {
+  height: 50px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: serif;
+  margin: 20px 0;
+}
+#display {
+  height: 100px;
+  width: 590px;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  font-size: 3rem;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 10px;
+}
+#flexbox {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+#flexbox button {
+  width: 146px;
+  height: 70px;
+  background-color: white;
+  margin: 2px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: serif;
+  font-size: 2rem;
+}
+#flexbox button:hover {
+  background-color: lightsalmon;
+}
+#flexbox #zero {
+  flex-grow: 2;
+}
+#flexbox .maroon {
+  background-color: rgb(241, 91, 91);
+}
